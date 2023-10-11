@@ -10,8 +10,6 @@ require('highcharts/modules/sonification')(Highcharts);
 
 export default function LineGraph({seriesData, years}) {
 
-    console.log(seriesData);
-
     // Removing overflow: hidden style so chart doesn't get clipped.
     const chartCallback = (chart) => {
 
@@ -32,14 +30,15 @@ export default function LineGraph({seriesData, years}) {
             enabled: true,
             keyboardNavigation: {
                 enabled: true,
+                order: ['chartMenu', 'series', 'legend'],
                 seriesNavigation:{
                     mode:'normal' 
                 }
             },
-            description: "A line graph of the primary screen readers used on desktop between 2009 and 2021. Values represent the number of survey respondents."
+            description: "A line graph of the primary screen readers used on desktop between 2009 and 2021."
         },
         caption: {
-            text: "A line graph of the primary screen readers used on desktop between 2009 and 2021. Values represent the number of survey respondents."
+            text: "A line graph of the primary screen readers used on desktop between 2009 and 2021."
         },
         chart: {
             type: 'line',

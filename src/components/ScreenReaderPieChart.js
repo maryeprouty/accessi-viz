@@ -23,14 +23,15 @@ export default function ScreenReaderPieChart({seriesData}) {
             enabled: true,
             keyboardNavigation: {
                 enabled: true,
+                order: ['chartMenu', 'series', 'legend'],
                 seriesNavigation:{
                     mode:'normal' 
                 }
             },
-            description: "According to WebAIM's screen reader user survey for the selected year, these are the primary screen readers used on desktop."
+            description: "A pie chart of the primary screen readers used on desktop for the selected year."
         },
         caption: {
-            text: "According to WebAIM's screen reader user survey for the selected year, these are the primary screen readers used on desktop."
+            text: "A pie chart of the primary screen readers used on desktop for the selected year."
         },
         chart: {
             type: 'pie',

@@ -36,10 +36,10 @@ export default function Dashboard() {
             <div className="intro-container">
                 <span>
                     This dashboard demonstrates the&nbsp;
-                    <a href='https://webaim.org/projects/screenreadersurvey9/' target='_blank' rel='noreferrer'>WebAIM Screen Reader Survey</a>
-                    &nbsp;user preferences for their primary
-                    screen reader and browser. Screen readers allow people who are blind or low vision to navigate digital content.
-                    Each pie chart is filtered by the Survey Year.
+                    <a href='https://webaim.org/projects/screenreadersurvey9/' target='_blank' rel='noreferrer'>WebAIM Screen Reader User Survey</a>
+                    &nbsp;results for which primary&nbsp;
+                    <a href='#footnote'>screen reader</a>
+                    *&nbsp;and browser that respondents prefer. Each pie chart is filtered by the Survey Year.
                 </span>
                 <form>
                     <label htmlFor='survey-date'>Survey Year</label>
@@ -70,6 +70,10 @@ export default function Dashboard() {
                         years={getYears()}
                     />
                 </div>
+            </div>
+            <div>
+                <p id='footnote'>* Screen readers are a type of assistive technology that translate digital content into audio or braille.
+                They allow people with visual or cognitive disabilities to navigate digital content.</p>
             </div>
         </div>
     )

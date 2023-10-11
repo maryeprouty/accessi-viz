@@ -23,14 +23,15 @@ export default function BrowserPieChart({seriesData}) {
             enabled: true,
             keyboardNavigation: {
                 enabled: true,
+                order: ['chartMenu', 'series', 'legend'],
                 seriesNavigation:{
                     mode:'normal' 
                 }
             },
-            description: "According to WebAIM's screen reader user survey for the selected year, these are the browsers most often used along with each respondent's primary screen reader."
+            description: "A pie chart of the primary browsers that screen reader users preferred on desktop for the selected year."
         },
         caption: {
-            text: "According to WebAIM's screen reader user survey for the selected year, these are the browsers most often used along with each respondent's primary screen reader. "
+            text: "A pie chart of the primary browsers that screen reader users preferred on desktop for the selected year."
         },
         chart: {
             type: 'pie',

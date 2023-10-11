@@ -23,6 +23,7 @@ export function processLineGraphSeries(surveyData) {
 
 }
 
+// Returns list of years that the survey data was collected.
 export function getYearsList(surveyData) {
 
     let years = [];
@@ -31,7 +32,6 @@ export function getYearsList(surveyData) {
         years.push(surveyData[i].year);
     }
 
-    console.log(years);
     return years;
 
 }
