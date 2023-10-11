@@ -19,9 +19,6 @@ const getYears = () => {
     return getYearsList(surveyResults.resultsByYear);
 }
 
-// TODO
-// Create Github repo & set up Github pages.
-// Then I really need to make my actual presentation.
 export default function Dashboard() {
 
     const [year, setYear] = useState('2021');
