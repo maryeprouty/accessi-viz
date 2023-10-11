@@ -1,0 +1,389 @@
+{
+    "attribution": "WebAIM",
+    "resultsByYear": [
+        {
+            "year": "2021",
+            "id": 9,
+            "primaryScreenReader": [
+                {
+                    "name": "JAWS",
+                    "y": 832
+                },
+                {
+                    "name": "NVDA",
+                    "y": 476
+                },
+                {
+                    "name": "VoiceOver",
+                    "y": 100
+                },
+                {
+                    "name": "Other",
+                    "y": 140
+                }
+            ],
+            "primaryBrowser": [
+                {
+                    "name": "Chrome",
+                    "y": 833
+                },
+                {
+                    "name": "Microsoft Edge",
+                    "y": 286
+                },
+                {
+                    "name": "Firefox",
+                    "y": 257
+                },
+                {
+                    "name": "Safari",
+                    "y": 79
+                },
+                {
+                    "name": "Internet Explorer",
+                    "y": 52
+                },
+                {
+                    "name": "Other",
+                    "y": 47
+                }
+            ]
+        },
+        {
+            "year": "2019",
+            "id": 8,
+            "primaryScreenReader": [
+                {
+                    "name": "JAWS",
+                    "y": 493
+                },
+                {
+                    "name": "NVDA",
+                    "y": 487
+                },
+                {
+                    "name": "VoiceOver",
+                    "y": 157
+                },
+                {
+                    "name": "Other",
+                    "y": 77
+                }
+            ],
+            "primaryBrowser": [
+                {
+                    "name": "Chrome",
+                    "y": 537
+                },
+                {
+                    "name": "Microsoft Edge",
+                    "y": 23
+                },
+                {
+                    "name": "Firefox",
+                    "y": 331
+                },
+                {
+                    "name": "Safari",
+                    "y": 118
+                },
+                {
+                    "name": "Internet Explorer",
+                    "y": 176
+                },
+                {
+                    "name": "Other",
+                    "y": 25
+                }
+            ]
+        },
+        {
+            "year": "2017",
+            "id": 7,
+            "primaryScreenReader": [
+                {
+                    "name": "JAWS",
+                    "y": 811
+                },
+                {
+                    "name": "NVDA",
+                    "y": 555
+                },
+                {
+                    "name": "VoiceOver",
+                    "y": 204
+                },
+                {
+                    "name": "Other",
+                    "y": 172
+                }
+            ],
+            "primaryBrowser": [
+                {
+                    "name": "Chrome",
+                    "y": 271
+                },
+                {
+                    "name": "Microsoft Edge",
+                    "y": 8
+                },
+                {
+                    "name": "Firefox",
+                    "y": 719
+                },
+                {
+                    "name": "Safari",
+                    "y": 184
+                },
+                {
+                    "name": "Internet Explorer",
+                    "y": 549
+                },
+                {
+                    "name": "Other",
+                    "y": 22
+                }
+            ]
+        },
+        {
+            "year": "2015",
+            "id": 6,
+            "primaryScreenReader": [
+                {
+                    "name": "JAWS",
+                    "y": 743
+                },
+                {
+                    "name": "NVDA",
+                    "y": 360
+                },
+                {
+                    "name": "VoiceOver",
+                    "y": 188
+                },
+                {
+                    "name": "Other",
+                    "y": 1169
+                }
+            ],
+            "primaryBrowser": [
+                {
+                    "name": "Chrome",
+                    "y": 155
+                },
+                {
+                    "name": "Microsoft Edge",
+                    "y": 0
+                },
+                {
+                    "name": "Firefox",
+                    "y": 735
+                },
+                {
+                    "name": "Safari",
+                    "y": 192
+                },
+                {
+                    "name": "Internet Explorer",
+                    "y": 1307
+                },
+                {
+                    "name": "Other",
+                    "y": 54
+                }
+            ]
+        },
+        {
+            "year": "2014",
+            "id": 5,
+            "primaryScreenReader": [
+                {
+                    "name": "JAWS",
+                    "y": 721
+                },
+                {
+                    "name": "NVDA",
+                    "y": 268
+                },
+                {
+                    "name": "VoiceOver",
+                    "y": 149
+                },
+                {
+                    "name": "Other",
+                    "y": 303
+                }
+            ],
+            "primaryBrowser": [
+                {
+                    "name": "Chrome",
+                    "y": 40
+                },
+                {
+                    "name": "Microsoft Edge",
+                    "y": 0
+                },
+                {
+                    "name": "Firefox",
+                    "y": 346
+                },
+                {
+                    "name": "Safari",
+                    "y": 143
+                },
+                {
+                    "name": "Internet Explorer",
+                    "y": 839
+                },
+                {
+                    "name": "Other",
+                    "y": 58
+                }
+            ]
+        },
+        {
+            "year": "2012",
+            "id": 4,
+            "primaryScreenReader": [
+                {
+                    "name": "JAWS",
+                    "y": 853
+                },
+                {
+                    "name": "NVDA",
+                    "y": 238
+                },
+                {
+                    "name": "VoiceOver",
+                    "y": 159
+                },
+                {
+                    "name": "Other",
+                    "y": 486
+                }
+            ],
+            "primaryBrowser": [
+                {
+                    "name": "Chrome",
+                    "y": 42
+                },
+                {
+                    "name": "Microsoft Edge",
+                    "y": 0
+                },
+                {
+                    "name": "Firefox",
+                    "y": 349
+                },
+                {
+                    "name": "Safari",
+                    "y": 148
+                },
+                {
+                    "name": "Internet Explorer",
+                    "y": 1176
+                },
+                {
+                    "name": "Other",
+                    "y": 25
+                }
+            ]
+        },
+        {
+            "year": "2010",
+            "id": 3,
+            "primaryScreenReader": [
+                {
+                    "name": "JAWS",
+                    "y": 727
+                },
+                {
+                    "name": "NVDA",
+                    "y": 105
+                },
+                {
+                    "name": "VoiceOver",
+                    "y": 120
+                },
+                {
+                    "name": "Other",
+                    "y": 276
+                }
+            ],
+            "primaryBrowser": [
+                {
+                    "name": "Chrome",
+                    "y": 0
+                },
+                {
+                    "name": "Microsoft Edge",
+                    "y": 0
+                },
+                {
+                    "name": "Firefox",
+                    "y": 285
+                },
+                {
+                    "name": "Safari",
+                    "y": 116
+                },
+                {
+                    "name": "Internet Explorer",
+                    "y": 790
+                },
+                {
+                    "name": "Other",
+                    "y": 20
+                }
+            ]
+        },
+        {
+            "year": "2009",
+            "id": 2,
+            "primaryScreenReader": [
+                {
+                    "name": "JAWS",
+                    "y": 435
+                },
+                {
+                    "name": "NVDA",
+                    "y": 19
+                },
+                {
+                    "name": "VoiceOver",
+                    "y": 58
+                },
+                {
+                    "name": "Other",
+                    "y": 143
+                }
+            ],
+            "primaryBrowser": [
+                {
+                    "name": "Chrome",
+                    "y": 0
+                },
+                {
+                    "name": "Microsoft Edge",
+                    "y": 0
+                },
+                {
+                    "name": "Firefox",
+                    "y": 122
+                },
+                {
+                    "name": "Safari",
+                    "y": 54
+                },
+                {
+                    "name": "Internet Explorer",
+                    "y": 459
+                },
+                {
+                    "name": "Other",
+                    "y": 13
+                }
+            ]
+        }
+    ]
+}
