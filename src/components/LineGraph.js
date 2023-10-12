@@ -10,11 +10,21 @@ require('highcharts/modules/sonification')(Highcharts);
 
 export default function LineGraph({seriesData, years}) {
 
-    // Removing overflow: hidden style so chart doesn't get clipped.
-    const chartCallback = (chart) => {
-
+    const removeOverflowHidden = () => {
         const domChart = document.getElementsByClassName('line-graph-container')[0]?.firstChild;
         domChart.style = '';
+    }
+
+    const chartCallback = (chart) => {
+
+        // Removing overflow: hidden style so chart doesn't get clipped.
+        removeOverflowHidden();
+
+        setTimeout(() => {
+            // Remove end of chart tabbable markers, which are not visible..
+            const endChartEls = document.getElementsByClassName('highcharts-exit-anchor');
+            Array.prototype.forEach.call(endChartEls, (anchor) => anchor.tabIndex = "-1");
+        }, 1000);
 
         // setTimeout((param) => {
         //     if (param !== undefined) {
@@ -30,12 +40,15 @@ export default function LineGraph({seriesData, years}) {
             enabled: true,
             keyboardNavigation: {
                 enabled: true,
-                order: ['chartMenu', 'series', 'legend'],
                 seriesNavigation:{
                     mode:'normal' 
                 }
             },
-            description: "A line graph of the primary screen readers used on desktop between 2009 and 2021."
+            description: "A line graph of the primary screen readers used on desktop between 2009 and 2021.",
+            screenReaderSection: {
+                afterChartFormat: null,
+                // onViewDataTableClick: removeOverflowHidden
+            }
         },
         caption: {
             text: "A line graph of the primary screen readers used on desktop between 2009 and 2021."
@@ -53,11 +66,6 @@ export default function LineGraph({seriesData, years}) {
         },
         exporting: {
             enabled: true,
-        },
-        legend: {
-            layout: 'vertical',
-            align: 'right',
-            verticalAlign: 'middle'
         },
         title: {
         text: 'Primary Screen Reader over Time',

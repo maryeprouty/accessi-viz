@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="app">
       <header className="app-header">
-        <h1 className="app-container">Screen Reader User Preferences</h1>
+        <h1>Screen Reader User Preferences</h1>
       </header>
       <main>
         <Dashboard></Dashboard>
