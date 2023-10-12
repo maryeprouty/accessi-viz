@@ -66,6 +66,11 @@ export default function LineGraph({seriesData, years}) {
         },
         exporting: {
             enabled: true,
+            buttons: {
+                contextButton: {
+                    menuItems: ['viewFullscreen', 'separator', 'downloadXLS', 'viewData', 'separator', 'playAsSound']
+                }
+            }
         },
         title: {
         text: 'Primary Screen Reader over Time',

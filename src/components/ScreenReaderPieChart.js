@@ -49,6 +49,11 @@ export default function ScreenReaderPieChart({seriesData}) {
         },
         exporting: {
             enabled: true,
+            buttons: {
+                contextButton: {
+                    menuItems: ['viewFullscreen', 'separator', 'downloadXLS', 'viewData', 'separator', 'playAsSound']
+                }
+            }
         },
         legend: {
             enabled: true
