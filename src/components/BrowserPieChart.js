@@ -23,12 +23,14 @@ export default function BrowserPieChart({seriesData}) {
             enabled: true,
             keyboardNavigation: {
                 enabled: true,
-                order: ['chartMenu', 'series', 'legend'],
                 seriesNavigation:{
                     mode:'normal' 
                 }
             },
-            description: "A pie chart of the primary browsers that screen reader users preferred on desktop for the selected year."
+            description: "A pie chart of the primary browsers that screen reader users preferred on desktop for the selected year.",
+            screenReaderSection: {
+                afterChartFormat: null
+            }
         },
         caption: {
             text: "A pie chart of the primary browsers that screen reader users preferred on desktop for the selected year."
@@ -66,7 +68,10 @@ export default function BrowserPieChart({seriesData}) {
         series: [{
             name: 'Number of Respondents',
             colorByPoint: true,
-            data: seriesData
+            data: seriesData,
+            dataLabels: {
+                format: '{point.name}<br>{point.y}',
+            }
         }]
     }
     

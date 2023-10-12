@@ -33,27 +33,29 @@ export default function Dashboard() {
             <div className='visually-hidden' aria-live='assertive' role='alert'>
                 <span>{liveMessage}</span>
             </div>
-            <div className="intro-container">
-                <span>
-                    This dashboard demonstrates the&nbsp;
-                    <a href='https://webaim.org/projects/screenreadersurvey9/' target='_blank' rel='noreferrer'>WebAIM Screen Reader User Survey</a>
-                    &nbsp;results for which primary&nbsp;
-                    <a href='#footnote'>screen reader</a>
-                    *&nbsp;and browser that respondents prefer. Each pie chart is filtered by the Survey Year.
-                </span>
-                <form>
-                    <label htmlFor='survey-date'>Survey Year</label>
-                    <select value={year} id='survey-date' onChange={e => setYear(e.target.value)}>
-                        <option value='2021'>2021</option>
-                        <option value='2019'>2019</option>
-                        <option value='2017'>2017</option>
-                        <option value='2015'>2015</option>
-                        <option value='2014'>2014</option>
-                        <option value='2012'>2012</option>
-                        <option value='2010'>2010</option>
-                        <option value='2009'>2009</option>
-                    </select>
-                </form>
+            <div className='intro-container'>
+                <div className='intro-inner-container'>
+                    <span>
+                        This dashboard demonstrates the&nbsp;
+                        <a href='https://webaim.org/projects/screenreadersurvey9/' target='_blank' rel='noreferrer'>WebAIM Screen Reader User Survey</a>
+                        &nbsp;results for which primary&nbsp;
+                        <a href='#footnote'>screen reader</a>
+                        *&nbsp;and browser that respondents prefer. Each pie chart is filtered by the Survey Year.
+                    </span>
+                    <form>
+                        <label htmlFor='survey-date'>Survey Year</label>
+                        <select value={year} id='survey-date' onChange={e => setYear(e.target.value)}>
+                            <option value='2021'>2021</option>
+                            <option value='2019'>2019</option>
+                            <option value='2017'>2017</option>
+                            <option value='2015'>2015</option>
+                            <option value='2014'>2014</option>
+                            <option value='2012'>2012</option>
+                            <option value='2010'>2010</option>
+                            <option value='2009'>2009</option>
+                        </select>
+                    </form>
+                </div>
             </div>
             <div id='dashboard'>
                 <div className="dashboard-row-container">
