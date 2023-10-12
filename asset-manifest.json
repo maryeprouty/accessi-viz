@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/accessi-viz/static/css/main.98e967f4.css",
-    "main.js": "/accessi-viz/static/js/main.0d923579.js",
+    "main.js": "/accessi-viz/static/js/main.bf775c51.js",
     "static/js/787.c557b9a9.chunk.js": "/accessi-viz/static/js/787.c557b9a9.chunk.js",
     "index.html": "/accessi-viz/index.html",
     "main.98e967f4.css.map": "/accessi-viz/static/css/main.98e967f4.css.map",
-    "main.0d923579.js.map": "/accessi-viz/static/js/main.0d923579.js.map",
+    "main.bf775c51.js.map": "/accessi-viz/static/js/main.bf775c51.js.map",
     "787.c557b9a9.chunk.js.map": "/accessi-viz/static/js/787.c557b9a9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.98e967f4.css",
-    "static/js/main.0d923579.js"
+    "static/js/main.bf775c51.js"
   ]
 }
