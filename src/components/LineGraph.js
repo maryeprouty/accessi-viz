@@ -55,12 +55,12 @@ export default function LineGraph({seriesData, years}) {
         },
         chart: {
             type: 'line',
-            borderColor: '#5C5C5C',
-            borderRadius: 2,
+            borderColor: 'rgb(209, 217, 224)',
+            borderRadius: 5,
             borderWidth: 1,
             allowMutatingData: false
         },
-        colors: ['#4059AD', '#6B9AC4', '#97D8C4', '#F4B982'],
+        colors: ['#4059AD', '#5F92BF', '#25A77F', '#C78600'],
         credits: {
             enabled: false
         },

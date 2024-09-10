@@ -37,8 +37,8 @@ export default function BrowserPieChart({seriesData}) {
         },
         chart: {
             type: 'pie',
-            borderColor: '#5C5C5C',
-            borderRadius: 2,
+            borderColor: 'rgb(209, 217, 224)',
+            borderRadius: 5,
             borderWidth: 1,
             allowMutatingData: false
         },
@@ -70,7 +70,7 @@ export default function BrowserPieChart({seriesData}) {
             colorByPoint: true,
             data: seriesData,
             dataLabels: {
-                format: '{point.name}<br>{point.y}',
+                format: '{point.name}<br>{point.percentage:.1f}%',
             }
         }]
     }
