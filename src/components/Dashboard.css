@@ -15,8 +15,8 @@
     margin: 2em auto;
     background-color: white;
     line-height: 1.5em;
-    border: 1px solid black;
-    border-radius: 2px;
+    border: 1px solid rgb(209, 217, 224);
+    border-radius: 5px;
 }
 
 .intro-inner-container {
@@ -80,7 +80,7 @@ select {
 .highcharts-data-table table {
     font-family: Verdana, sans-serif;
     border-collapse: collapse;
-    border: 1px solid #ebebeb;
+    border: 1px solid rgb(209, 217, 224);
     margin: 10px auto;
     text-align: left;
     width: 100%;
@@ -93,7 +93,7 @@ select {
     padding-bottom: 1em;
     margin-top: 2em;
     border: 1px solid black;
-    border-radius: 2px;
+    border-radius: 5px;
     overflow: auto;
 }
 

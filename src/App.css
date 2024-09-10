@@ -9,13 +9,14 @@
 }
 
 h1 {
-  color: #73000a;
+  color: #000000;
   margin: 0; 
   margin-top: .5em;
+  margin-bottom: .8em;
 }
 
 body {
-  background-color: #ECECEC;
+  background-color: rgb(246, 248, 250)
 }
 
 @media (max-width: 1300px) {

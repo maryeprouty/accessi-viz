@@ -35,6 +35,7 @@ export default function Dashboard() {
             </div>
             <div className='intro-container'>
                 <div className='intro-inner-container'>
+                    <h1>Screen Reader User Preferences</h1>
                     <span>
                         This dashboard demonstrates the&nbsp;
                         <a href='https://webaim.org/projects/screenreadersurvey9/' target='_blank' rel='noreferrer'>WebAIM Screen Reader User Survey</a>
